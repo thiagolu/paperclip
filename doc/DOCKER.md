@@ -134,3 +134,7 @@ Notes:
 - Run the script in the foreground to watch the onboarding flow; stop with `Ctrl+C` after validation.
 - Set `SMOKE_DETACH=true` to leave the container running for automation and optionally write shell-ready metadata to `SMOKE_METADATA_FILE`.
 - The image definition is in `Dockerfile.onboard-smoke`.
+
+## Railway
+
+For Railway-specific deployment requirements (Dockerfile restrictions, volume mount behavior, `RAILWAY_RUN_UID`, and healthcheck setup), see `doc/RAILWAY.md`.
